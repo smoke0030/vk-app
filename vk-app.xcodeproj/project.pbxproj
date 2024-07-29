@@ -16,6 +16,7 @@
 		844649422C57BFDD006407A0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 844649412C57BFDD006407A0 /* FirebaseStorage */; };
 		844649442C57CAF8006407A0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844649432C57CAF8006407A0 /* FeedViewController.swift */; };
 		844649462C57CB01006407A0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844649452C57CB01006407A0 /* APIManager.swift */; };
+		844649482C57FAFF006407A0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844649472C57FAFF006407A0 /* FeedTableViewCell.swift */; };
 		84B5A1832C57A4E9005006ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5A1822C57A4E9005006ED /* AppDelegate.swift */; };
 		84B5A1852C57A4E9005006ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5A1842C57A4E9005006ED /* SceneDelegate.swift */; };
 		84B5A1872C57A4E9005006ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5A1862C57A4E9005006ED /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		844649382C57BE3D006407A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		844649432C57CAF8006407A0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		844649452C57CB01006407A0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		844649472C57FAFF006407A0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		84B5A17F2C57A4E9005006ED /* vk-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B5A1822C57A4E9005006ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B5A1842C57A4E9005006ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				844649432C57CAF8006407A0 /* FeedViewController.swift */,
 				844649452C57CB01006407A0 /* APIManager.swift */,
+				844649472C57FAFF006407A0 /* FeedTableViewCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				84B5A1852C57A4E9005006ED /* SceneDelegate.swift in Sources */,
 				844649442C57CAF8006407A0 /* FeedViewController.swift in Sources */,
 				844649372C57B60C006407A0 /* HeaderView.swift in Sources */,
+				844649482C57FAFF006407A0 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
